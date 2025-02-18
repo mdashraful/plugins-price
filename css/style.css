@@ -1,0 +1,21 @@
+.post-span{
+    color: white; 
+    padding: 2px 4px; 
+    margin-left: 6px; 
+    border-radius: 4px;
+}
+
+.post-span{
+    color: white; 
+    padding: 2px 4px; 
+    margin-left: 6px; 
+    border-radius: 4px;
+}
+
+.span-new{
+    background-color: green; 
+}
+
+.span-old{
+    background-color: gray; 
+}

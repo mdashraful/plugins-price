@@ -1,0 +1,115 @@
+.pricing-card {
+    position: relative;
+    margin-top: 20px;
+    padding: .7em 2em 1em;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.pricing-table {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pricing-table:hover {
+    transform: translateY(-5px);
+}
+
+.pricing-header {
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px 8px 0 0;
+}
+
+.plan-name {
+    font-size: 24px;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.price {
+    font-size: 36px;
+    color: #444;
+}
+
+.currency {
+    font-size: 24px;
+    vertical-align: super;
+}
+
+.period {
+    font-size: 14px;
+    color: #666;
+}
+
+.pricing-features {
+    padding: 20px;
+}
+
+.pricing-features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pricing-features li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.checkmark {
+    color: #2ecc71;
+    margin-right: 10px;
+}
+
+.pricing-footer {
+    padding: 20px;
+}
+
+.pricing-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #2ecc71;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.pricing-button:hover {
+    background: #27ae60;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #c3c4c7;
+    background: #fff;
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background: #f0f0f0;
+}
+
+.pagination .current {
+    background: #2271b1;
+    color: #fff;
+    border-color: #2271b1;
+}

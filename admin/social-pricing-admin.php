@@ -1,7 +1,5 @@
 <?php
-// social-pricing-admin.php
 
-// Add admin menu for Pricing Settings
 function social_add_pricing_menu() {
     add_menu_page(
         'Pricing Settings',
@@ -15,7 +13,6 @@ function social_add_pricing_menu() {
 }
 add_action('admin_menu', 'social_add_pricing_menu');
 
-// Enqueue necessary admin scripts
 function social_pricing_admin_scripts($hook) {
     if ($hook != 'toplevel_page_social-pricing-settings') return;
 
@@ -26,7 +23,6 @@ function social_pricing_admin_scripts($hook) {
 }
 add_action('admin_enqueue_scripts', 'social_pricing_admin_scripts');
 
-// Display the pricing settings page
 function social_pricing_settings_page() {
     ?>
     <div class="pricing-wrap social-pricing-settings">

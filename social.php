@@ -13,7 +13,6 @@ if(!defined('ABSPATH')){
 
 require_once(plugin_dir_path(__FILE__).'/includes/social-scripts.php');
 require_once(plugin_dir_path(__FILE__).'/includes/social-content.php');
-require_once(plugin_dir_path(__FILE__) . '/admin/social-admin.php');
 require_once(plugin_dir_path(__FILE__) . '/admin/social-pricing-admin.php');
 require_once(plugin_dir_path(__FILE__) . '/includes/custom-post.php');
 

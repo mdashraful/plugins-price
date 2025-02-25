@@ -29,7 +29,7 @@ add_action('admin_enqueue_scripts', 'social_pricing_admin_scripts');
 // Display the pricing settings page
 function social_pricing_settings_page() {
     ?>
-    <div class="pricing-wrap">
+    <div class="pricing-wrap social-pricing-settings">
         <h1>Pricing Settings</h1>
         <form method="post" action="options.php" enctype="multipart/form-data">
             <?php

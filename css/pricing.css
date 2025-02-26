@@ -140,3 +140,8 @@
 .wp-picker-container .wp-color-result.button:hover {
     border-color: #0073e6;
 }
+
+.logo-preview img{
+    max-width: 100px !important;
+    height: auto;
+}
